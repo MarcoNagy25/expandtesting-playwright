@@ -1,0 +1,14 @@
+{
+  "name": "expandtesting-test-suite",
+  "version": "1.0.0",
+  "description": "Playwright automated test suite for practice.expandtesting.com",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
